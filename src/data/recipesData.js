@@ -1,0 +1,321 @@
+export const recipesData = [
+  {
+    id: 1,
+    name: "Masala Dosa",
+    icon: "🥞",
+    category: "Breakfast",
+    time: "30 mins",
+    difficulty: "Medium",
+    servings: "4",
+    description: "Crispy South Indian crepe filled with spiced potato filling",
+    image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=500",
+    ingredients: [
+      "2 cups dosa batter",
+      "4 potatoes (boiled and mashed)",
+      "1 onion (chopped)",
+      "2 green chilies",
+      "1 tsp mustard seeds",
+      "Curry leaves",
+      "Turmeric powder",
+      "Salt to taste",
+      "Oil for cooking"
+    ],
+    instructions: [
+      "Heat oil in a pan and add mustard seeds",
+      "Add curry leaves, green chilies, and onions",
+      "Add mashed potatoes, turmeric, and salt",
+      "Cook the filling for 5 minutes",
+      "Heat a non-stick pan and spread dosa batter",
+      "Cook until crispy and golden brown",
+      "Add the potato filling and fold the dosa",
+      "Serve hot with chutney and sambar"
+    ]
+  },
+  {
+    id: 2,
+    name: "Paneer Butter Masala",
+    icon: "🍛",
+    category: "Lunch",
+    time: "40 mins",
+    difficulty: "Easy",
+    servings: "4",
+    description: "Rich and creamy paneer curry in tomato-based gravy",
+    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500",
+    ingredients: [
+      "250g paneer (cubed)",
+      "4 tomatoes (pureed)",
+      "2 onions (chopped)",
+      "1 cup cream",
+      "2 tbsp butter",
+      "Garam masala",
+      "Red chili powder",
+      "Kasuri methi",
+      "Salt to taste"
+    ],
+    instructions: [
+      "Heat butter in a pan",
+      "Add onions and cook until golden",
+      "Add tomato puree and cook for 10 minutes",
+      "Add spices and salt",
+      "Add paneer cubes and mix well",
+      "Add cream and kasuri methi",
+      "Simmer for 5 minutes",
+      "Garnish with cream and serve with naan or rice"
+    ]
+  },
+  {
+    id: 3,
+    name: "Dal Tadka",
+    icon: "🫘",
+    category: "Dinner",
+    time: "35 mins",
+    difficulty: "Easy",
+    servings: "4",
+    description: "Comforting lentil curry with aromatic tempering",
+    image: "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
+    ingredients: [
+      "1 cup toor dal (split pigeon peas)",
+      "2 tomatoes (chopped)",
+      "1 onion (chopped)",
+      "3 garlic cloves",
+      "1 tsp cumin seeds",
+      "Red chili powder",
+      "Turmeric powder",
+      "Ghee",
+      "Coriander leaves"
+    ],
+    instructions: [
+      "Cook dal with turmeric until soft",
+      "Heat ghee in a pan",
+      "Add cumin seeds and garlic",
+      "Add onions and cook until golden",
+      "Add tomatoes and spices",
+      "Pour this tadka over cooked dal",
+      "Mix well and simmer for 5 minutes",
+      "Garnish with coriander and serve hot"
+    ]
+  },
+  {
+    id: 4,
+    name: "Gulab Jamun",
+    icon: "🍩",
+    category: "Desserts",
+    time: "45 mins",
+    difficulty: "Medium",
+    servings: "6",
+    description: "Sweet, soft milk dumplings soaked in rose-flavored syrup",
+    image: "https://www.themealdb.com/images/media/meals/xqwwpy1483908697.jpg",
+    ingredients: [
+      "1 cup milk powder",
+      "1/4 cup all-purpose flour",
+      "1/4 tsp baking soda",
+      "2 tbsp ghee",
+      "Milk (as needed)",
+      "2 cups sugar",
+      "2 cups water",
+      "Rose water",
+      "Cardamom powder",
+      "Oil for frying"
+    ],
+    instructions: [
+      "Mix milk powder, flour, baking soda, and ghee",
+      "Add milk gradually to form a soft dough",
+      "Make small balls from the dough",
+      "Heat oil and deep fry until golden brown",
+      "Make sugar syrup with water, sugar, and cardamom",
+      "Add rose water to the syrup",
+      "Soak the fried balls in warm syrup",
+      "Let them absorb syrup for 2 hours before serving"
+    ]
+  },
+  {
+    id: 5,
+    name: "Samosa",
+    icon: "🥟",
+    category: "Snacks",
+    time: "50 mins",
+    difficulty: "Medium",
+    servings: "8",
+    description: "Crispy triangular pastries filled with spiced potatoes",
+    image: "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg",
+    ingredients: [
+      "2 cups all-purpose flour",
+      "4 potatoes (boiled)",
+      "1 cup green peas",
+      "2 tsp cumin seeds",
+      "1 tsp garam masala",
+      "Red chili powder",
+      "Coriander leaves",
+      "Oil for frying",
+      "Salt to taste"
+    ],
+    instructions: [
+      "Make dough with flour, salt, and oil. Rest for 30 mins",
+      "Mash potatoes and mix with peas and spices",
+      "Roll dough into thin circles and cut in half",
+      "Form cones and fill with potato mixture",
+      "Seal the edges with water",
+      "Heat oil for deep frying",
+      "Fry samosas until golden and crispy",
+      "Serve hot with chutney"
+    ]
+  },
+  {
+    id: 6,
+    name: "Biryani",
+    icon: "🍚",
+    category: "Dinner",
+    time: "60 mins",
+    difficulty: "Hard",
+    servings: "6",
+    description: "Aromatic rice dish layered with spiced meat or vegetables",
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500",
+    ingredients: [
+      "2 cups basmati rice",
+      "500g chicken or vegetables",
+      "2 onions (sliced)",
+      "1 cup yogurt",
+      "Biryani masala",
+      "Saffron strands",
+      "Mint leaves",
+      "Coriander leaves",
+      "Ghee",
+      "Whole spices"
+    ],
+    instructions: [
+      "Marinate chicken with yogurt and spices for 30 mins",
+      "Cook rice until 70% done",
+      "Fry onions until golden and crispy",
+      "Layer rice and marinated chicken in a pot",
+      "Add fried onions, mint, and coriander",
+      "Mix saffron with milk and pour over rice",
+      "Cover and cook on low heat for 20 mins",
+      "Serve hot with raita"
+    ]
+  },
+  {
+    id: 7,
+    name: "Mango Lassi",
+    icon: "🥤",
+    category: "Drinks",
+    time: "10 mins",
+    difficulty: "Easy",
+    servings: "2",
+    description: "Refreshing yogurt-based mango smoothie",
+    image: "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=500",
+    ingredients: [
+      "1 ripe mango (chopped)",
+      "1 cup yogurt",
+      "1/2 cup milk",
+      "2 tbsp sugar",
+      "Ice cubes",
+      "Cardamom powder",
+      "Saffron strands (optional)"
+    ],
+    instructions: [
+      "Add mango pieces to a blender",
+      "Add yogurt, milk, and sugar",
+      "Add cardamom powder",
+      "Blend until smooth",
+      "Add ice cubes and blend again",
+      "Pour into glasses",
+      "Garnish with saffron strands",
+      "Serve chilled"
+    ]
+  },
+  {
+    id: 8,
+    name: "Chole Bhature",
+    icon: "🫓",
+    category: "Lunch",
+    time: "50 mins",
+    difficulty: "Medium",
+    servings: "4",
+    description: "Spicy chickpea curry with fluffy deep-fried bread",
+    image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=500",
+    ingredients: [
+      "2 cups chickpeas (soaked)",
+      "2 cups all-purpose flour",
+      "2 onions (chopped)",
+      "3 tomatoes (pureed)",
+      "Chole masala",
+      "Tea bags (for color)",
+      "Yogurt",
+      "Baking powder",
+      "Oil for frying"
+    ],
+    instructions: [
+      "Pressure cook chickpeas with tea bags",
+      "Make bhature dough with flour, yogurt, and baking powder",
+      "Heat oil and fry onions for chole",
+      "Add tomato puree and chole masala",
+      "Add cooked chickpeas and simmer",
+      "Roll bhature dough into circles",
+      "Deep fry until puffed and golden",
+      "Serve hot chole with bhature"
+    ]
+  },
+  {
+    id: 9,
+    name: "Pasta Alfredo",
+    icon: "🍝",
+    category: "Dinner",
+    time: "25 mins",
+    difficulty: "Easy",
+    servings: "3",
+    description: "Creamy Italian pasta with parmesan cheese sauce",
+    image: "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=500",
+    ingredients: [
+      "250g fettuccine pasta",
+      "1 cup heavy cream",
+      "1/2 cup parmesan cheese",
+      "3 garlic cloves",
+      "2 tbsp butter",
+      "Black pepper",
+      "Parsley",
+      "Salt to taste"
+    ],
+    instructions: [
+      "Boil pasta according to package instructions",
+      "Melt butter and sauté minced garlic",
+      "Add heavy cream and bring to simmer",
+      "Add grated parmesan cheese",
+      "Stir until sauce thickens",
+      "Add cooked pasta and toss well",
+      "Season with pepper and salt",
+      "Garnish with parsley and serve"
+    ]
+  },
+  {
+    id: 10,
+    name: "Chocolate Cake",
+    icon: "🍰",
+    category: "Desserts",
+    time: "50 mins",
+    difficulty: "Medium",
+    servings: "8",
+    description: "Rich and moist chocolate layer cake",
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500",
+    ingredients: [
+      "1.5 cups all-purpose flour",
+      "1 cup sugar",
+      "1/2 cup cocoa powder",
+      "1 tsp baking soda",
+      "2 eggs",
+      "1 cup milk",
+      "1/2 cup oil",
+      "Vanilla extract",
+      "Chocolate frosting"
+    ],
+    instructions: [
+      "Preheat oven to 180°C",
+      "Mix dry ingredients in a bowl",
+      "Whisk eggs, milk, oil, and vanilla",
+      "Combine wet and dry ingredients",
+      "Pour into greased cake pan",
+      "Bake for 30-35 minutes",
+      "Cool completely before frosting",
+      "Apply chocolate frosting and serve"
+    ]
+  }
+];
